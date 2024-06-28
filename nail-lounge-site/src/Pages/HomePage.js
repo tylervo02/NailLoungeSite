@@ -31,8 +31,15 @@ function HomePage() {
                     (760)-621-8888
                 </a>
 
+                <br/>
+                
+                <Link to= "/menu">Menu</Link>
             </div>
+
+            <br/>
 
         </body>
     );
 }
+
+export default HomePage;
