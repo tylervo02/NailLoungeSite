@@ -1,5 +1,6 @@
 import React, {Component, useEffect, useState} from "react";
 import {Link, useNavigate} from "react-router-dom";
+import '../output.css';
 
 function Menu() {
     const navigate = useNavigate();
@@ -11,6 +12,7 @@ function Menu() {
     // I want some dropdown boxes here.    
     return (
         <body>
+            
             <div>
                 <Link to="/">Home</Link>
             </div>

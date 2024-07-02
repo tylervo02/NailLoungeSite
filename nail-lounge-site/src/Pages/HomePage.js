@@ -1,5 +1,7 @@
 import React, {Component, useEffect, useState} from "react";
 import {Link, useNavigate} from "react-router-dom";
+import Logo from '../Images/101-logo.png'
+import '../output.css';
 
 
 function HomePage() {
@@ -11,12 +13,15 @@ function HomePage() {
     //Add photos here
     return (
 
-        <body>
-            <header>
-                <a>
-                    101 Nail Lounge
-                </a>
+        <body class = "bg-purple-800 text-white">
+            
+            {/* Top Navigation Bar*/}
+
+
+            <header class="bg-white">
+                <Link to='/'><img src={Logo} alt ="Logo"/></Link>
             </header>
+
 
             <br/>
 
