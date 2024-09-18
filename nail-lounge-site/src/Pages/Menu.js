@@ -102,7 +102,7 @@ function Menu() {
                 <Link to="/"><img src={Logo} alt ="Logo"/></Link>
             </div>
 
-            <div>
+            <div className="display-linebreak">
             {accordions.map((accordion) => ( 
                     <Accordion 
                         key={accordion.key} 

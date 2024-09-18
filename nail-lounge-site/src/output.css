@@ -544,3 +544,9 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+
+/*Had to add whitespace stuff because normal HTML won't do it.*/
+.display-linebreak {
+  white-space: pre-line;
+}
