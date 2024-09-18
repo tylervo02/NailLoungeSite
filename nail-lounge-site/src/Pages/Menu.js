@@ -11,7 +11,8 @@ function Menu() {
     const toHomepage = () => {
         navigate("/HomePage");
     }
-
+    
+    //Menu data stored here
     const [accordions, setAccordion] = useState([
         {
             key: 1,
