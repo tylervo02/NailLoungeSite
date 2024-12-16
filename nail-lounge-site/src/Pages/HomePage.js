@@ -54,7 +54,7 @@ function HomePage() {
     //Add photos here
     return (
 
-        <body class = "bg-purple-800 text-white">
+        <body class = "flex flex-col min-h-screen">
             
             {/* Top Navigation Bar*/}
 
@@ -71,12 +71,21 @@ function HomePage() {
                     </div>
                 ))} 
                 </Slide>
+                
+                
             </header>
 
 
             <br/>
-
             <div>
+                {/*Placeholder story, might replace later*/}
+                <h1>Who We Are</h1>
+                <p>We are a local nail salon facing the beach of Encinitas. Hope you can visit us soon.</p>
+                <button class="text-white bg-purple-600 hover:bg-purple-900 font-bold py-2 px-4 border-purple-600 rounded" onClick={toMenu}>Our Menu</button>
+            </div>
+            
+            {/*This goes at the bottom*/}
+            <footer class="bg-purple-800 text-white mt-auto">
                 <h3>Address</h3>
                 <p>541 South Coast Highway 101, Encinitas, CA 92058</p>
             
@@ -89,8 +98,8 @@ function HomePage() {
 
                 <br/>
                 
-                <Link to= "/menu">Menu</Link>
-            </div>
+                
+            </footer>
 
             <br/>
 

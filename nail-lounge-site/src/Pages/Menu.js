@@ -99,6 +99,7 @@ function Menu() {
     return (
         <body>
             
+            {/* Top Navigation Bar*/}
             <div>
                 <Link to="/"><img src={Logo} alt ="Logo"/></Link>
             </div>
@@ -114,6 +115,22 @@ function Menu() {
                     /> 
                 ))} 
             </div>
+
+            <footer class="bg-purple-800 text-white mt-auto">
+                <h3>Address</h3>
+                <p>541 South Coast Highway 101, Encinitas, CA 92058</p>
+            
+                <br/>
+
+                <h3>Phone Number</h3>
+                <a>
+                    (760)-621-8888
+                </a>
+
+                <br/>
+                
+                
+            </footer>
         </body>
     );
 }
